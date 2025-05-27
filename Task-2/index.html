@@ -6,61 +6,118 @@
     <title>Ethnus - MERN Full Stack Internship Training</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 40px;
+            background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #333;
+            position: relative;
         }
-        h1, h2, h3 {
+        
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.85);
+            z-index: -1;
+        }
+        
+        .resume-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
             color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0;
         }
+        
+        h2 {
+            color: #2980b9;
+            margin-top: 25px;
+        }
+        
+        h3 {
+            color: #16a085;
+            margin-bottom: 10px;
+        }
+        
         hr {
             border: 0;
             height: 1px;
-            background: #ddd;
-            margin: 20px 0;
+            background: linear-gradient(to right, transparent, #3498db, transparent);
+            margin: 25px 0;
         }
+        
         .contact-info {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
+            background: rgba(240, 240, 240, 0.7);
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        strong {
+            color: #2c3e50;
         }
     </style>
 </head>
 <body>
-    <h1>Ethnus - MERN Full Stack Internship Training</h1>
-    
-    <h2>Informax Academy</h2>
-    <div class="contact-info">
-        <p><strong>Address:</strong> G.R. Complex Protein Negar, Dikosemapazi<br>
-        <strong>Paraguay, Univ Pradech.</strong> 210011</p>
+    <div class="resume-container">
+        <h1>Ethnus - MERN Full Stack Internship Training</h1>
         
-        <p><strong>Mobile:</strong> +91 8374588766</p>
+        <h2>Informax Academy</h2>
+        <div class="contact-info">
+            <p><strong>Address:</strong> G.R. Complex Protein Negar, Dikosemapazi<br>
+            <strong>Paraguay, Univ Pradech.</strong> 210011</p>
+            
+            <p><strong>Mobile:</strong> +91 8374588766</p>
+            
+            <p><strong>Email:</strong> info@informaxacademy.com</p>
+        </div>
         
-        <p><strong>Email:</strong> info@informaxacademy.com</p>
+        <hr>
+        
+        <h3>Career Objective</h3>
+        <p>To perceive a career in a renowned firm with dedicated efforts and to associate myself with an organization that gives me a chance to update my knowledge.</p>
+        
+        <hr>
+        
+        <h3>Educational Qualification:</h3>
+        <p><strong>Graduation B.Com (Computer Science)</strong> Under Command University Deep Kindergarten Degree college, Kameraddy-2000.</p>
+        
+        <p><strong>Intermediate G.E.C</strong> under Board of Intermediate Education, from Sondergram Jr. College, Kameraddy de¨ 2006.</p>
+        
+        <p><strong>S.S.C</strong> from Board of Secondary Education, Thyvan High School, Demakonda de¨ 2004.</p>
+        
+        <hr>
+        
+        <h3>Computer Skills:</h3>
+        <ul>
+            <li>PG D.C.A (Next Graduate Diploma in Computer Applications)</li>
+            <li>A.D.C.A (Advanced Diploma in Computer Applications)</li>
+            <li>D.T.P.(Desktop Publisher)</li>
+            <li><strong>Operation Systems</strong> (XD; 2000, 95, and Other)</li>
+        </ul>
     </div>
-    
-    <hr>
-    
-    <h3>Career Objective</h3>
-    <p>To perceive a career in a renowned firm with dedicated efforts and to associate myself with an organization that gives me a chance to update my knowledge.</p>
-    
-    <hr>
-    
-    <h3>Educational Qualification:</h3>
-    <p><strong>Graduation B.Com (Computer Science)</strong> Under Command University Deep Kindergarten Degree college, Kameraddy-2000.</p>
-    
-    <p><strong>Intermediate G.E.C</strong> under Board of Intermediate Education, from Sondergram Jr. College, Kameraddy de¨ 2006.</p>
-    
-    <p><strong>S.S.C</strong> from Board of Secondary Education, Thyvan High School, Demakonda de¨ 2004.</p>
-    
-    <hr>
-    
-    <h3>Computer Skills:</h3>
-    <ul>
-        <li>PG D.C.A (Next Graduate Diploma in Computer Applications)</li>
-        <li>A.D.C.A (Advanced Diploma in Computer Applications)</li>
-        <li>D.T.P.(Desktop Publisher)</li>
-        <li><strong>Operation Systems</strong> (XD; 2000, 95, and Other)</li>
-    </ul>
 </body>
 </html>
